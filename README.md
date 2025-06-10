@@ -1,7 +1,7 @@
 # Unity Editor Scripts Toolchain
 My daily use Unity Editor Scripts consolidated into one window. Expandable.
 ## Swap materials
-![image](https://github.com/dguliev-github/unity_toolchain/assets/64034875/95da3351-44c8-4830-b2bd-5eb4c8c8ca86)
+![image](https://github.com/dgul3d/unity_toolchain/assets/64034875/95da3351-44c8-4830-b2bd-5eb4c8c8ca86)
 
 Swaps first material with the second one in all selected mesh renderers
 
@@ -15,7 +15,7 @@ Swaps first material with the second one in all selected mesh renderers
 
 Change seamless material from one to another, create more gameobject variations.
 ## Replace with prefab
-![image](https://github.com/dguliev-github/unity_toolchain/assets/64034875/6292e340-a691-457f-997c-e176e2b2f0dd)
+![image](https://github.com/dgul3d/unity_toolchain/assets/64034875/6292e340-a691-457f-997c-e176e2b2f0dd)
 
 Swaps selected gameobjects with the particular prefab. Saves original transforms.
 
@@ -32,7 +32,7 @@ Swaps selected gameobjects with the particular prefab. Saves original transforms
 
 Useful for converting propotyping blockout to the final objects, as well as swapping the same objects with their variations.
 ## Select with the same material
-![image](https://github.com/dguliev-github/unity_toolchain/assets/64034875/3ec2df31-0495-4cdb-bc5c-01982e777745)
+![image](https://github.com/dgul3d/unity_toolchain/assets/64034875/3ec2df31-0495-4cdb-bc5c-01982e777745)
 
 Selects all objects with the chosen material.
 
@@ -49,7 +49,7 @@ Selects all objects with the chosen material.
 Batch find-and-swap particular material.
 
 ## Copy Transforms
-![image](https://github.com/dguliev-github/unity_toolchain/assets/64034875/c7513f20-5ad6-4a68-bf84-93e2716be547)
+![image](https://github.com/dgul3d/unity_toolchain/assets/64034875/c7513f20-5ad6-4a68-bf84-93e2716be547)
 
 Recursively copies transforms including children with the same name.
 
@@ -62,12 +62,12 @@ Recursively copies transforms including children with the same name.
 Copy transforms of unpackaged fbx prefab (including child objects) to the original packaged fbx prefab to restore link with fbx file.
 
 ## Select children
-![image](https://github.com/dguliev-github/unity_toolchain/assets/64034875/1e0c98f6-b233-4b59-9009-07cfa907b2d9)
+![image](https://github.com/dgul3d/unity_toolchain/assets/64034875/1e0c98f6-b233-4b59-9009-07cfa907b2d9)
 
 Selects children of all selected parent objects.
 
 ## Transfer Colliders
-![image](https://github.com/dguliev-github/unity_toolchain/assets/64034875/8d547f06-30e8-46f2-8632-73681c9485f5)
+![image](https://github.com/dgul3d/unity_toolchain/assets/64034875/8d547f06-30e8-46f2-8632-73681c9485f5)
 
 Allows to re-attach collider components between parent and child gameobjects. If you need to transfer colliders to a child you have to select this child. If you need to transfer colliders to a parent you have to select a parent respectively.
 
@@ -80,7 +80,7 @@ Selected gameobject has to have parent/child with collider components.
 You added colliders to the wrong gameobject and have to redo them on another one. Transfer them to child instead and re-parent it to the right one. You can then reattach colliders to the new parent using the reversed operation.
 
 ## Set LOD Groups
-![image](https://github.com/dguliev-github/unity_toolchain/assets/64034875/fb4efb72-42e8-45db-a58a-d1b195366d46)
+![image](https://github.com/dgul3d/unity_toolchain/assets/64034875/fb4efb72-42e8-45db-a58a-d1b195366d46)
 
 Add and automatically setup LOD group components. Does exactly the same as LOD group postprocessor but allows you to choose where you want this component to be.
 
@@ -112,13 +112,13 @@ You have an fbx file with hierarchy like that:
  This script allows you to re-setup LOD groups and then generate independent prefabs with ease.
 
 ## Set LOD Transitions
-![image](https://github.com/dguliev-github/unity_toolchain/assets/64034875/e8109609-8923-421b-a353-97569fa0bc48)
+![image](https://github.com/dgul3d/unity_toolchain/assets/64034875/e8109609-8923-421b-a353-97569fa0bc48)
 
 The first button automatically sets LOD transition value by interpolating between LOD0 and last LOD value. Useful when LOD count between objects is inconsistent but you need them to cull on the exact same distance or screen height percent.
 
 The second button sets fade transition weight for all selected objects with LOD groups. Basically this function extends built-it LODGroup multiobject editor with this missing feature. 
 
-![image](https://github.com/dguliev-github/unity_toolchain/assets/64034875/4369d340-6f0d-4334-9281-ee6da40d435b)
+![image](https://github.com/dgul3d/unity_toolchain/assets/64034875/4369d340-6f0d-4334-9281-ee6da40d435b)
 
 By choosing Animate checkbox you can override cross-fade animation length in seconds. Note that this variable is shared between all LODgroups in project.
 
@@ -132,10 +132,10 @@ Fade Animation Time value should be positive.
 
 This is how the resulting gameobjects with one, two, three, and four LOD groups would look like in the inspector:
 
-![image](https://github.com/dguliev-github/unity_toolchain/assets/64034875/beedbd12-826b-4b4a-a541-732b2eb2a11f)
+![image](https://github.com/dgul3d/unity_toolchain/assets/64034875/beedbd12-826b-4b4a-a541-732b2eb2a11f)
 
 ## Copy Path
-![image](https://github.com/dguliev-github/unity_toolchain/assets/64034875/e9f1e4b3-4f6c-409d-a4b1-350f975e4c92)
+![image](https://github.com/dgul3d/unity_toolchain/assets/64034875/e9f1e4b3-4f6c-409d-a4b1-350f975e4c92)
 
 Creates additional option in Project window context menu. I included it for convenience.
 
@@ -148,7 +148,7 @@ Copyright Alan Mattano @ SOARING STARS Lab
 
 Requires GIT installation
 
-Window > Package Manager > + > Add package from git url > `https://github.com/dguliev-github/unity_toolchain.git`
+Window > Package Manager > + > Add package from git url > `https://github.com/dgul3d/unity_toolchain.git`
 
 ### Option 2
 Download as .zip > unpack anywhere in `/Assets/` folder of your project. As editor script, the package contents should be in a folder named `Editor`.
@@ -157,7 +157,7 @@ Download as .zip > unpack anywhere in `/Assets/` folder of your project. As edit
 
 `Menu > Tools > DG's Toolchain`
 
-![image](https://github.com/dguliev-github/unity_toolchain/assets/64034875/b97101e4-a59a-4c26-83e8-a3e1eac8880e)
+![image](https://github.com/dgul3d/unity_toolchain/assets/64034875/b97101e4-a59a-4c26-83e8-a3e1eac8880e)
 
 Dock window anywhere you like.
 
